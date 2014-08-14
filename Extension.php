@@ -37,6 +37,11 @@ class Extension extends \Bolt\BaseExtension
         );
     }
 
+    public function getName()
+    {
+        return "Waffle Orders";
+    }
+
     public $my_table_name;
 
     public function initialize()
