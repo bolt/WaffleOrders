@@ -1,5 +1,5 @@
 {
-    "name": "bolt/WaffleOrders",
+    "name": "bolt/waffleorders",
     "description": "",
     "type": "bolt-extension",
     "keywords": [],
@@ -19,11 +19,6 @@
         ],
         "psr-4": {
             "WaffleOrders\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.7.*"
         }
     }
 }
