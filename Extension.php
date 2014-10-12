@@ -13,7 +13,7 @@
  * @author Tobias Dammers <tobias@twokings.nl>
  */
 
-namespace WaffleOrders;
+namespace Bolt\Extension\Bolt\WaffleOrders;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
