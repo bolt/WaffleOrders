@@ -21,22 +21,6 @@ use Doctrine\DBAL\Schema\Schema;
 
 class Extension extends \Bolt\BaseExtension
 {
-    public function info()
-    {
-        return array(
-            'name' => "TestRegisterTable",
-            'description' => "Test-drives the new automatic extension table creation functionality",
-            'author' => "Tobias Dammers",
-            'link' => "http://bolt.cm",
-            'version' => "0.1",
-            'required_bolt_version' => "1.4.4",
-            'type' => "General",
-            'first_releasedate' => null,
-            'latest_releasedate' => null,
-            'priority' => 10
-        );
-    }
-
     public function getName()
     {
         return "Waffle Orders";
