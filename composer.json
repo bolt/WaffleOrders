@@ -1,6 +1,6 @@
 {
     "name": "bolt/waffleorders",
-    "description": "",
+    "description": "Test-drives the new automatic extension table creation functionality",
     "type": "bolt-extension",
     "keywords": [],
     "require": {
@@ -18,7 +18,7 @@
             "init.php"
         ],
         "psr-4": {
-            "WaffleOrders\\": ""
+            "Bolt\\Extension\\Bolt\\WaffleOrders\\": ""
         }
     }
 }
